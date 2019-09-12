@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista Pessoas</title>
+</head>
+<body>
+	<p><a href="/index"> Inicio </a></p>
+    <table border="1">
+    {%for pessoa in listar: %}
+        <tr>
+            <td>{{pessoa.nome}}</td>
+            <td>{{pessoa.endereco}}</td>
+            <td>{{pessoa.telefone}}</td>
+            <td>{{pessoa.email}}</td>
+            <td><a href=/excluir?nome={{pessoa.nome}}>excluir</a></td>
+        </tr>
+    {% endfor %}
+    </table>
+    <a href="/cadastrarPessoa"><button>Novo Cliente</button></a>
+</body>
+</html>
