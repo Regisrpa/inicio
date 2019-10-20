@@ -6,14 +6,14 @@
 </head>
 <body>
 	<p><a href="/index"> Inicio </a></p>
-    <table border="1">
+    <table border="4">
     {%for pessoa in listar: %}
         <tr>
             <td>{{pessoa.nome}}</td>
             <td>{{pessoa.endereco}}</td>
             <td>{{pessoa.telefone}}</td>
             <td>{{pessoa.email}}</td>
-            <td><a href=/excluir?nome={{pessoa.nome}}>excluir</a></td>
+            <td><a href=/deletar?nome={{pessoa.nome}}>Excluir</a></td>
         </tr>
     {% endfor %}
     </table>

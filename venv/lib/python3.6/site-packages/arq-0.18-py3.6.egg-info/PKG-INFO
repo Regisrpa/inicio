@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: arq
+Version: 0.18
+Summary: Job queues in python with asyncio and redis.
+Home-page: https://github.com/samuelcolvin/arq
+Author: Samuel Colvin
+Author-email: s@muelcolvin.com
+License: MIT
+Description: arq
+        ===
+        
+        |Build Status| |Coverage| |pypi| |license|
+        
+        Job queues in python with asyncio and redis.
+        
+        See `documentation`_ for more details.
+        
+        .. |Build Status| image:: https://travis-ci.org/samuelcolvin/arq.svg?branch=master
+           :target: https://travis-ci.org/samuelcolvin/arq
+        .. |Coverage| image:: https://codecov.io/gh/samuelcolvin/arq/branch/master/graph/badge.svg
+           :target: https://codecov.io/gh/samuelcolvin/arq
+        .. |pypi| image:: https://img.shields.io/pypi/v/arq.svg
+           :target: https://pypi.python.org/pypi/arq
+        .. |license| image:: https://img.shields.io/pypi/l/arq.svg
+           :target: https://github.com/samuelcolvin/arq
+        .. _documentation: https://arq-docs.helpmanual.io/
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Clustering
+Classifier: Topic :: System :: Distributed Computing
+Classifier: Topic :: System :: Monitoring
+Classifier: Topic :: System :: Systems Administration
+Requires-Python: >=3.6
+Provides-Extra: watch

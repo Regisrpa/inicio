@@ -1,0 +1,10 @@
+async-timeout>=3.0.0
+aioredis>=1.1.0
+click>=6.7
+pydantic>=0.20
+
+[:python_version == "3.6"]
+dataclasses>=0.6
+
+[watch]
+watchgod>=0.4
